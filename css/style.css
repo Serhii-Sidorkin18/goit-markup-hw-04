@@ -317,7 +317,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    fill: #f4f4fd;
 }
 
 .team-item-link:hover,
