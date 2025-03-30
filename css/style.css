@@ -7,7 +7,10 @@ img {
     display: block;
 }
 
-
+:root {
+    --primary-color: #4d5ae5;
+}
+    
 
 body {
     font-family: "Roboto", sans-serif;
@@ -304,6 +307,22 @@ align-items: center;
     align-items: center;
     margin: 0 auto;
 
+}
+
+.team-item-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.team-item-link:hover,
+.team-item-link:focus {
+  background-color: #404bbf;
 }
 .team-item-svg {
     fill: #f4f4fd;
