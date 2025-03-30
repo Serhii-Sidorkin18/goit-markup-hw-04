@@ -481,6 +481,7 @@ color: #4d5ae5;
     margin: 0;
   }
   
+
   .social-list-footer {
     width: 40px;
     height: 40px;
@@ -503,9 +504,9 @@ color: #4d5ae5;
   }
   
   .social-icon-footer {
-    fill: var(--icon-light);
     width: 24px;
     height: 24px;
+    fill: var(--icon-light);
   }
 
 
